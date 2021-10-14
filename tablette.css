@@ -1,0 +1,47 @@
+/* * Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */ 
+@media all and (max-width: 992px){
+    body{
+        margin-top: 0px;
+    }
+    #topbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .topbar__nav{
+        width: 100%;
+        
+    }
+
+    .topbar__nav__link:hover{
+        color: #0065FC;
+        border-bottom: #0065FC 3px solid;
+        border-top: none;
+    }
+
+
+
+
+    .search__nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .search__nav__button{
+        display: none;
+    }
+
+    .search__icon__button{
+        display: block !important;
+        margin: 0 10px;
+        padding: 20px;
+        background-color: #0065FC;
+        color: white;
+        border-radius: 15px;
+    }
+   
+}

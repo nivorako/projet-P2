@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="tablette.css" />
+    <script src="https://kit.fontawesome.com/4ed0ec6e4e.js" crossorigin="anonymous"></script>
+    <title>Projet 2</title>
+</head>
+
+<body>
+    <header id="topbar">
+        <img class="topbar__logo" src="./assets/Booki.png" alt="logo">
+        <nav class="topbar__nav">
+            <a class="topbar__nav__link" href="#" data-active="true">Hebergement</a>
+            <a class="topbar__nav__link" href="#" data-active="false">Activités</a>
+        </nav>
+    </header>
+    <main id="content">
+        <section id="search">
+            <h1 class="search__title">Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p class="search__description">En plein centre ville ou en pleine nature</p>
+            <div class="search__nav">
+                <i class="search__nav__icon fas fa-map-marker-alt"></i>
+                <input type="text" id="search__input" placeholder="Marseille, France"/>
+                <button class="search__nav__button">Rechercher</button>
+                <button class="search__icon__button"><i class="fas fa-search"></i></button>
+
+            </div>
+        </section>
+        <nav id="filter">
+            <p class="filter__desc">Filtres</p>
+            <div class="filter__item">
+                    <i class="filter__icon fas fa-money-bill-wave"></i>
+                <a class="filter__desc">Economique</a>
+            </div>
+
+            <div class="filter__item">
+                <i class="filter__icon fas fa-child"></i>
+                <a class="filter__desc">Familial</a>
+            </div>
+
+            <div class="filter__item">
+                <i class="filter__icon fas fa-heart"></i>
+                <a class="filter__desc">Romantique</a>
+            </div>
+
+            <div class="filter__item">
+                <i class="filter__icon fas fa-dog"></i>
+                <a class="filter__desc">Animaux autorisé</a>
+            </div>
+        </nav>
+        <div class="filter__information">
+            <i class="fas fa-info"></i>
+            <p>Plus de 500 logements sont disponnibles dans cette ville</p>
+        </div>
+        <div id="topic">
+            <section id="lodging">
+                <h2>Hébergement à Marseille</h2>
+                <div class="lodging__article">
+                    <article class="card">
+                        <a class="card__link" href="#">
+                            <img class="lodging__card__image" src="./assets/cannebiere.jpg"
+                                alt="image hébergement Marseille" />
+                            <div class="card__body">
+                                    <h3 class="card__title">Auberge de la Cannebière</h3>
+                                    <p class="card__price">Nuit à partir de <span>85 Euros</span></p>                              
+                                    <i class="fas fa-star"></i>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="card">
+                        <a class="card__link" href="#">
+                            <img class="lodging__card__image" src="./assets/hotel-du-port.jpg"
+                                alt="image hébergement Marseille" />
+                            <div class="card__body">
+                                    <h3 class="card__title">Hôtel du port</h3>
+                                    <p class="card__price">Nuit à partir de <span>72 Euros</span></p>
+                                    <i class="fas fa-star"></i>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="card">
+                        <a class="card__link" href="#">
+                            <img class="lodging__card__image" src="./assets/mouette.jpg"
+                                alt="image hébergement Marseille" />
+                            <div class="card__body">
+                                    <h3 class="card__title">Hôtel les Mouettes</h3>
+                                    <p class="card__price">Nuit à partir de <span>60 Euros</span></p>
+                                    <i class="fas fa-star"></i>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="card">
+                        <a class="card__link" href="#">
+                            <img class="lodging__card__image" src="./assets/mer.jpg"
+                                alt="image hébergement Marseille" />
+                            <div class="card__body">
+                                    <h3 class="card__title">Hôtel de la mer</h3>
+                                    <p class="card__price">Nuit à partir de <span>69 Euros</span></p>
+                                    <i class="fas fa-star"></i>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="card">
+                        <a class="card__link" href="#">
+                            <img class="lodging__card__image" src="./assets/panier.jpg"
+                                alt="image hébergement Marseille" />
+                            <div class="card__body">
+                                    <h3 class="card__title">Aberge le panier</h3>
+                                    <p class="card__price">Nuit à partir de <span>82 Euros</span></p>
+                                <div>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="card">
+                        <a class="card__link" href="#">
+                            <img class="lodging__card__image" src="./assets/amina.jpg"
+                                alt="image hébergement Marseille" />
+                            <div class="card__body">
+                                    <h3 class="card__title">Hôtel chez Amina</h3>
+                                    <p class="card__price">Nuit à partir de <span>65 Euros</span></p>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+
+                            </div>
+                        </a>
+                    </article>
+                </div>
+
+            </section>
+            <section id="popular">
+                <h2>Les plus populaires <i class="fas fa-chart-line"></i></h2>
+                <article class="popular__article">
+                    <div class="card">
+                        <a class="popular__card__link" href="#">
+                            <img class="popular__card__image" src="./assets/amina.jpg"
+                                alt="image hébergement Marseille" />
+                            <div class="card__body">
+                                    <h3 class="card__title">Hôtel chez Amina</h3>
+                                    <p class="card__price">Nuit à partir de <span>65 Euros</span></p>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a class="popular__card__link" href="#">
+                            <img class="popular__card__image" src="./assets/amina.jpg"
+                                alt="image hébergement Marseille" />
+                            <div class="card__body">
+                                    <h3 class="card__title">Hôtel chez Amina</h3>
+                                    <p class="card__price">Nuit à partir de <span>65 Euros</span></p>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a class="popular__card__link" href="#">
+                            <img class="popular__card__image" src="./assets/amina.jpg"
+                                alt="image hébergement Marseille" />
+                            <div class="card__body">
+                                    <h3 class="card__title">Hôtel chez Amina</h3>
+                                    <p class="card__price">Nuit à partir de <span>65 Euros</span></p>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                            </div>
+                        </a>
+                    </div>
+                </article>
+
+
+            </section>
+           
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
