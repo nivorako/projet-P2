@@ -56,6 +56,7 @@ body{
 }
 /* bloc recherche lieu */
 .search__nav{
+    max-width: 992px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -89,7 +90,7 @@ body{
 }
 
 .search__icon__button{
-    display: none !important;
+    display: none;
 }
 
 

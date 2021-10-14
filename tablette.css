@@ -4,6 +4,7 @@
         margin-top: 0px;
     }
     #topbar{
+        max-width: 992px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -13,7 +14,9 @@
 
     .topbar__nav{
         width: 100%;
-        
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
     }
 
     .topbar__nav__link:hover{
