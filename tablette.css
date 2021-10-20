@@ -9,29 +9,36 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        width: 100%;
     }
 
     .topbar__nav{
         width: 100%;
         display: flex;
-        justify-content: space-around;
-        margin: auto;
+        justify-content: space-between;
     }
 
-    .topbar__nav__link:hover{
+    .topbar__nav__link[data-active=true] {
         color: #0065FC;
         border-bottom: #0065FC 3px solid;
         border-top: none;
+      }
+
+
+    .search{
+        display: flex;
+        flex-direction: column;
+        max-width: 992px;
+        margin: auto;
     }
 
-
-
-
     .search__nav{
+        max-width: 992px;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+        flex-shrink: 1;
+        flex-grow: 1;
+
     }
 
     .search__nav__button{
@@ -46,5 +53,90 @@
         color: white;
         border-radius: 15px;
     }
+
+    #topic{
+        max-width: 992px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .card{
+        width: 100%;
+        background-color: #f1f5fc;
+    }
+
+    #lodging{
+        width: 100%;
+        background-color: white;
+    }
+
+    .lodging__article{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .lodging__card__image{
+        height: 200px;
+    }
+
+    /* popular */
+
+    #popular{
+        width: 100%;
+        background-color: white;
+    }
+
+    .popular__card{
+        max-width: 992px;
+    }
+
+    .popular__card__image{
+        height: 200px;
+        display: flex;
+        flex: 0 1 600px;
+    }
+
+    /* Activity */
+
+    .activity{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .activity__card__5et6,
+    .activity__card__4,
+    .activity__card__2et3,
+    .activity__card__1{
+    width: 90%;
+    margin: auto;
+    }
+    
+    .activity__img1,
+    .activity__img2,
+    .activity__img3,
+    .activity__img4,
+    .activity__img5,
+    .activity__img6{
+        height: 200px;
+        object-fit: cover;
+        width: 100%;
+        border-radius: 20px 20px 0 0;
+    }
    
+}
+@media all and (max-width: 1200px) and (min-width: 992px){
+    .popular__article{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+
+    .popular__card__image{
+        height: 200px;
+        display: flex;
+        flex: 0 1 600px;
+    }
 }
