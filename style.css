@@ -98,17 +98,28 @@ body{
     align-items: center;
     font-weight: bolder;
     margin: 20px;
-    max-width: 992px;
+    max-width: 1440px;
+    gap: 2%;
 }
 
-.filter__item{ 
+.filter__items{
+    width: 60%; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+} 
+
+.filter__item{
     display: flex;
     flex-direction: row;
     align-items: center;
 
     border: #b9d4fc thin solid;
     border-radius: 25px;
-    margin: 0 1%;
+    margin: 0 2%;
     padding: 0 1.3% 0 1.3%;
 }
 
@@ -208,6 +219,7 @@ body{
 }
 
 .card__body{
+    width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -237,10 +249,8 @@ body{
     margin: 2% 0;
     padding: 2%;
     border-radius: 20px;
-    flex-basis: 350px;
+    width: 500px;
     height: 100%;
-    flex-shrink: 0;
-    flex-grow: 1;
 }
 
 .popular__card{
@@ -248,6 +258,7 @@ body{
     border: #DEEBFF solid thin;
     border-radius: 20px 0 0 20px ;
     margin-bottom: 15px;
+
 }
 
 .popular__card:hover{
@@ -280,9 +291,9 @@ body{
 
 .popular__card__image{
     display: flex;
-    flex: 0 0 200px;
+    width: 100%;
     height: 150px;
-    object-fit: cover;
+    object-fit: fill;
     border-radius: 20px 0 0 20px ;
     margin-right: 6%;
 }
@@ -382,73 +393,3 @@ body{
     margin-left: 20px;
 }
 
-/* 
-#activity{
-    margin: 2% 0;
-}
-
-.activity__article{
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    height: 50vh;
-    row-gap: 6%;
-}
-
-.activity__card{
-    border-radius: 20px 20px 0 0 ;
-    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.activity__card:hover{
-    scale: 1.05;
-    transition: 1s;
-}
-
-.activity__card:nth-child(1){
-    width: 23%;
-    height: 100%;
-}
-
-.activity__card:nth-child(2){
-    width: 23%;
-    height: 30%;
-}
-
-.activity__card:nth-child(3){
-    width: 23%;
-    height: 30%;
-}
-
-.activity__card:nth-child(4){
-    width: 23%;
-    height: 100%;
-}
-
-.activity__card:nth-child(5){
-    width: 23%;
-    height: 30%;
-}
-
-.activity__card:nth-child(6){
-    width: 23%;
-    height: 50%;
-}
-
-.activity__card__img{
-   
-    border-radius: 20px 20px 0 0 ;
-    height: 60%;
-    width: 100%;
-}
-
-.activity__card__link{
-    text-decoration: none;
-    color: black;
-}
-
-.activity__card__title{
-    margin-left: 5%;
-} */
