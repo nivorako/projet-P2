@@ -33,15 +33,18 @@
     .popular__article{
         display: flex;
         flex-direction: row;
-        width: 100%;
-       
+        gap: 1%;
+        /* width: 100%; */
+    }
+    .popular__card{
+        flex: 1 1 400px;
     }
 
     .popular__card__image{
         height: 200px;
         display: flex;
         width: 100%;
-        object-fit: contain;
+        object-fit: cover;
     }
 }
 
@@ -135,7 +138,7 @@
 
     .card{
         width: 100%;
-        background-color: #f1f5fc;
+        background-color: #F2F2F2;
     }
 
     #lodging{
@@ -147,7 +150,6 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-
     }
 
     .lodging__card__image{
@@ -163,6 +165,11 @@
 
     .popular__card{
         max-width: 992px;
+        background-color: #F2F2F2;
+    }
+
+    .gris{
+        color: rgb(134, 133, 133);
     }
 
     .popular__card__image{

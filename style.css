@@ -268,6 +268,7 @@ body{
     background-color: white;
     border: #DEEBFF solid thin;
     border-radius: 20px 0 0 20px ;
+    padding: 5px;
     margin-bottom: 15px;
 
 }
@@ -302,6 +303,7 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     height: 100%;
+    padding: 5px;
 }
 
 .popular__card__image{
