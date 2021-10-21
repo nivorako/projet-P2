@@ -5,6 +5,10 @@
 body{
     font-family: 'Raleway', sans-serif; 
     position: relative;
+}
+
+header,
+main{
     margin: 0 2%;
 }
 
@@ -200,7 +204,7 @@ body{
 }
 
 .show__article{
-    margin: 5px 0;
+    margin: 10px 0;
     padding: 5px;
     font-size: 1.2rem;
     text-decoration: none;
@@ -328,6 +332,7 @@ body{
 
 .activity__card__link{
     border: #DEEBFF solid thin;
+    border-radius: 20px 20px 0 0;
     text-decoration: none;
     color: black;
     display: flex;
@@ -340,7 +345,9 @@ body{
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     scale: 1.05;
     transition: 1s;
+    color: rgb(134, 133, 133);
 }
+
 .activity{
     display: flex;
     flex-direction: row;
@@ -410,3 +417,33 @@ body{
     margin-left: 20px;
 }
 
+/* section footer */
+
+#foot{
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: start;   
+    width: 100%;
+    margin: 0 auto 30px auto;
+}
+
+.helps,
+.hostings,
+.comments{
+    width: 15%;
+}
+
+.helps__items,
+.hostings__items,
+.comments__items{
+    display: flex;
+    flex-direction: column;
+}
+
+.comment__item,
+.hosting__item,
+.help__item{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
