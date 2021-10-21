@@ -94,6 +94,11 @@
         display: none;
     }
 
+    .search__nav__icon{
+        padding: 20px;
+        height: 60px;
+    }
+
     .search__icon__button{
         display: block !important;
         margin: 0 10px;
@@ -101,6 +106,7 @@
         background-color: #0065FC;
         color: white;
         border-radius: 15px;
+        height: 60px;
     }
 
     #filter{
