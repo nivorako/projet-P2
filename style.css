@@ -218,7 +218,7 @@ main{
     background-color: white;
     margin-bottom: 15px;
     padding: 5px;
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px;
     width: 30%;
 }
 
@@ -271,7 +271,7 @@ main{
 .popular__card{
     background-color: white;
     border: #DEEBFF solid thin;
-    border-radius: 20px 0 0 20px ;
+    border-radius: 20px ;
     padding: 5px;
     margin-bottom: 15px;
 
@@ -332,7 +332,7 @@ main{
 
 .activity__card__link{
     border: #DEEBFF solid thin;
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px ;
     text-decoration: none;
     color: black;
     display: flex;
@@ -419,18 +419,23 @@ main{
 
 /* section footer */
 
-#foot{
-    background-color: #F2F2F2;
-    display: flex;
-    justify-content: start;   
+footer{
     width: 100%;
-    margin: 0 auto 30px auto;
+    background-color: #F2F2F2;
+}
+
+#foot{
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;   
+    padding: 0 20px 30px 20px;
+    margin: auto;
 }
 
 .helps,
 .hostings,
 .comments{
-    width: 15%;
+    width: 30%;
 }
 
 .helps__items,
