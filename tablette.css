@@ -69,17 +69,14 @@
         justify-content: space-between;
     }
 
-    .topbar__nav__link[data-active=true] {
+    .topbar__nav__link{
+        border-bottom: #DEEBFF thin solid;
+    }
+    .topbar__nav__link:hover{
         color: #0065FC;
         border-bottom: #0065FC 3px solid;
         border-top: none;
-      }
-
-      .topbar__nav__link[data-active=false] {
-        border-bottom: #DEEBFF 3px solid;
-        border-top: none;
-      }
-
+    }
     .search{
         display: flex;
         flex-direction: column;
