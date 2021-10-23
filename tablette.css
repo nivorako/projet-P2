@@ -25,26 +25,30 @@
     .card__body{
         width: auto;
     }
-    #popular{
+    /* #popular{
        
         width: 1440px;
         margin: auto;
-    }
+    } */
     .popular__article{
-        display: flex;
+        /* display: flex;
         flex-direction: row;
-        gap: 1%;
+        gap: 1%; */
         /* width: 100%; */
     }
-    .popular__card{
+    /* .popular__card{
         flex: 1 1 400px;
-    }
+    } */
 
     .popular__card__image{
-        height: 200px;
+        /* height: 200px; */
         display: flex;
         width: 100%;
         object-fit: cover;
+    }
+
+    .popular__title{
+        color: red;
     }
 }
 

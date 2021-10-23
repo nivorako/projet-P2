@@ -172,7 +172,7 @@ main{
 #topic{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap-reverse;
+    flex-wrap: nowrap;
     gap: 2%;
 }
 
@@ -193,6 +193,7 @@ main{
     padding: 2%;
     flex-basis: 800px;
     flex-grow: 1;
+    width: 58%;
 }
 
 
@@ -218,7 +219,7 @@ main{
     margin-bottom: 15px;
     padding: 5px;
     border-radius: 20px;
-    width: 33%;
+    width: 31%;
 }
 
 .card:hover{
@@ -231,17 +232,18 @@ main{
     color: rgb(134, 133, 133);
 }
 
-.card__body{
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
 
 .card__link{
     text-decoration: none;
     color: black;
     font-size: small;
+}
+
+.card__body{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .card__title,
@@ -271,8 +273,7 @@ main{
     margin: 1% 0;
     padding: 2%;
     border-radius: 20px;
-    width: 500px;
-    height: 100%;
+    width: 38%;
     background-color: #F2F2F2;
 }
 
