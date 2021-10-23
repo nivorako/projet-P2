@@ -240,7 +240,7 @@ main{
 }
 
 .card__body{
-    width: 300px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -277,12 +277,30 @@ main{
     background-color: #F2F2F2;
 }
 
+.popular__article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    padding: 20px;
+}
+
+.popular__card__link{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+}
+
 .popular__card{
     background-color: white;
     border: #DEEBFF solid thin;
     border-radius: 20px ;
     padding: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 
 }
 
@@ -300,24 +318,6 @@ main{
     width: 100%;
     display: flex;
     justify-content: space-between;
-}
-
-.popular__card__link{
-    text-decoration: none;
-    color: black;
-    font-size: small;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 100%;
-}
-
-.popular__article{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 100%;
-    padding: 5px;
 }
 
 .popular__card__image{

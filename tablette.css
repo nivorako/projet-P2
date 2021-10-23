@@ -22,33 +22,29 @@
         margin-bottom: 20px;
     }
 
-    .card__body{
-        width: auto;
+    #popular{
+        flex: 1 0 500px;
     }
-    /* #popular{
-       
-        width: 1440px;
-        margin: auto;
-    } */
-    .popular__article{
-        /* display: flex;
-        flex-direction: row;
-        gap: 1%; */
-        /* width: 100%; */
-    }
-    /* .popular__card{
-        flex: 1 1 400px;
-    } */
+}
 
-    .popular__card__image{
-        /* height: 200px; */
+/* en dessous de 1200px */
+
+@media all and (max-width: 1200px){
+    .lodging__article{
         display: flex;
-        width: 100%;
-        object-fit: cover;
+        flex-direction: column;
     }
 
-    .popular__title{
-        color: red;
+    .card{
+        width: 100%;
+    }
+
+    .popular__article{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 100%;
+        padding: 20px;
     }
 }
 
