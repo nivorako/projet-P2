@@ -1,0 +1,21 @@
+{
+  "name": "p2",
+  "version": "1.0.0",
+  "description": "**projet 2** Ici on transforme uen maquette en site web avec HTML & CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixed/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nivorako/projet-P2.git"
+  },
+  "author": "niv",
+  "license": "ISC",
+  "browserslist": "last 4 versions",
+  "bugs": {
+    "url": "https://github.com/nivorako/projet-P2/issues"
+  },
+  "homepage": "https://github.com/nivorako/projet-P2#readme"
+}
