@@ -35,13 +35,11 @@ main{
 .topbar__nav__link{
     margin-top: -2px;
     padding: 30px;
+    text-align: center;
     text-decoration: none;
     color: black;
 }
 
-.topbar__nav__link:last-child{
-    text-align: right;
-}
 
 .topbar__nav__link:hover{
     color: #0065FC;
