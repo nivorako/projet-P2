@@ -30,6 +30,7 @@
 /* en dessous de 1200px */
 
 @media all and (max-width: 1200px){
+
     .lodging__article{
         display: flex;
         flex-direction: column;
@@ -177,7 +178,6 @@
     .popular__card__image{
         height: 200px;
         display: flex;
-        width: 100%;
     }
 
     /* Activity */
