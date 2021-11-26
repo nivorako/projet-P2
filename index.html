@@ -15,6 +15,9 @@
 </head>
 
 <body>
+
+    <!-- En tête -->
+
     <header id="topbar">
         <img class="topbar__logo" src="./assets/Booki.png" alt="logo">
         <nav class="topbar__nav">
@@ -22,18 +25,27 @@
             <a class="topbar__nav__link" href="#activity__Marseille" data-active="false">Activités</a>
         </nav>
     </header>
+
+    <!-- Main -->
+
     <main id="content">
+
+        <!-- section search -->
+
         <section id="search">
             <h1 class="search__title">Trouvez votre hébergement pour des vacances de rêve</h1>
             <p class="search__description">En plein centre ville ou en pleine nature</p>
             <div class="search__nav">
                 <i class="search__nav__icon fas fa-map-marker-alt"></i>
-                <input type="text" id="search__input" placeholder="Marseille, France" />
+                <input type="text" id="search__input" placeholder="Choisissez une ville" />
                 <button class="search__nav__button">Rechercher</button>
                 <button class="search__icon__button"><i class="fas fa-search"></i></button>
 
             </div>
         </section>
+
+        <!-- Filter -->
+
         <nav id="filter">
             <p class="filter__desc">Filtres</p>
             <div class="filter__items">
@@ -62,7 +74,13 @@
             <i class="fas fa-info"></i>
             <p>Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
+
+        <!-- Topic -->
+
         <div id="topic">
+
+            <!-- Section lodging -->
+
             <section id="lodging">
                 <div>
                     <h2>Hébergements à Marseille</h2>
@@ -183,9 +201,11 @@
                         </article>
                     </div>
                 </div>
-                <strong ><a href="#" class="show__article"> Afficher plus</a></strong>
-                
+                <strong ><a href="#" class="show__article"> Afficher plus</a></strong> 
             </section>
+
+            <!-- Section popular -->
+
             <section id="popular">
                 <h2 class="popular__title">Les plus populaires <i class="fas fa-chart-line"></i></h2>
                 <div class="popular__article">
@@ -247,11 +267,10 @@
                         </a>
                     </article>
                 </div>
-
-
             </section>
-
         </div>
+
+        <!-- Section activity -->
 
         <section id="activity__Marseille">
             <h2 class="activity__title">Activités à Marseille</h2>
@@ -336,37 +355,38 @@
             </div>
         </section>
     </main>
-    <footer>
-        <section id="foot" >
-            <div class="comments">
-                <div class="comments__title">
-                    <h3>A propos</h3>
-                </div>
-                <div class="comments__items">
-                    <a href="#" class="comment__item">Fonctionnement du site</a>
-                    <a href="#" class="comment__item">Conditions générale de vente</a>
-                    <a href="#" class="comment__item">Données et confidentialités</a>
-                </div>
+
+    <!-- Footer -->
+    
+    <footer id="foot">
+        <div class="comments">
+            <div class="comments__title">
+                <h3>A propos</h3>
             </div>
-            <div class="hostings">
-                <div class="hostings__title">
-                    <h3>Nos hébèrgements</h3>
-                </div>
-                <div class="hostings__items">
-                    <a href="#" class="hosting__item">Charte qualité</a>
-                    <a href="#" class="hosting__item">Soumettre votre hotel</a>
-                </div>
+            <div class="comments__items">
+                <a href="#" class="comment__item">Fonctionnement du site</a>
+                <a href="#" class="comment__item">Conditions générale de vente</a>
+                <a href="#" class="comment__item">Données et confidentialités</a>
             </div>
-            <div class="helps">
-                <div class="helps__title">
-                    <h3>Assistance</h3>
-                </div>
-                <div class="helps__items">
-                    <a href="#" class="help__item">Centre d'aide</a>
-                    <a href="#" class="help__item">Nous contacter</a>
-                </div>
+        </div>
+        <div class="hostings">
+            <div class="hostings__title">
+                <h3>Nos hébèrgements</h3>
             </div>
-        </section>
+            <div class="hostings__items">
+                <a href="#" class="hosting__item">Charte qualité</a>
+                <a href="#" class="hosting__item">Soumettre votre hotel</a>
+            </div>
+        </div>
+        <div class="helps">
+            <div class="helps__title">
+                <h3>Assistance</h3>
+            </div>
+            <div class="helps__items">
+                <a href="#" class="help__item">Centre d'aide</a>
+                <a href="#" class="help__item">Nous contacter</a>
+            </div>
+            </div>      
     </footer>
 </body>
 

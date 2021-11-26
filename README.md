@@ -1,2 +1,4 @@
 **projet 2**
-Ici on transforme uen maquette en site web avec HTML & CSS
+
+La mission consiste à intégrer des nouvelles maquettes en HTML et CSS, qui serviront de base pour le reste du developpement.
+Ceci avec des recommendations bien spécifiques  au niveau fonctionnelles et techniques.
