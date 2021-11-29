@@ -169,6 +169,7 @@ main{
     flex-direction: row;
     justify-content: start;
     align-content: center;
+    align-items: center;
 }
 
 .filter__information p{
